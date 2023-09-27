@@ -7,24 +7,12 @@ from discord.ext import commands
 #to get discord online
 intents = discord.Intents.all()
 client = discord.Client(command_prefix='!', intents = intents)
-bot = commands.Bot(command_prefix='!', intents=intents)
 
 
 # to create Clients event
 @client.event    #event
 async def on_ready():    #function
-    print("We have logged in as {0.user}".format(client))
- 
-    
-@bot.event
-async def on_ready():
-    print("We have logged in as {0.user}".format(bot))
-   
-# Command to add two numbers
-@bot.command()
-async def add(ctx, num1: float, num2: float):
-    result = num1 + num2
-    await ctx.send(f"The sum of {num1} and {num2} is {result}")   
+    print("We have logged in as {0.user}".format(client)) 
     
     
 @client.event    #event 
