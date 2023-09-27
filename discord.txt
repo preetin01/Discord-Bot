@@ -7,8 +7,3 @@ It nearly a one stop shop for game community.
 
 ************BOT********************
 Bot is a automated Program and act like users and automatically response to events and commans on discord.
-
-URL TO Authorize:-  https://discord.com/api/oauth2/authorize?client_id=1156116667621986364&permissions=8&scope=bot
-
-
-Token: "MTE1NjExNjY2NzYyMTk4NjM2NA.GZtOF4.4jjrcrsF6koYH066-INSOhXPXFgt11OCmfy1Eo"
